@@ -1,0 +1,53 @@
+
+References: 
+
+Receipe: https://www.bettycrocker.com/recipes/ultimate-chocolate-chip-cookies/77c14e03-d8b0-4844-846d-f19304f61c57
+Flowchart: Video shared by Dr.Holbert in this discussion module.
+
+Assumptions:
+
+- I have to feed many hungry friends(count of ten) that demands producing several batches of cookies; This implies or demands the capacity of baking oven is short for total friends(Let it be only 5 cookies per batch and looping is mandatory).
+- Supplies/ingredients are always present and available before execution of processes. 
+- A process will start only all the ingredients are supplied.
+- Each batch is always made with a predefined quantity of ingredients(finite) and each operation is going to run for pre-defined timings(finite).
+- This is going to be end-to-end algorithm for a automated cookie maker with a minimal amount of inputs/ingredients from the user. 
+- The cookie maker has the folliwing inbuilt modules
+	- Oven module
+        - Small mixing bowl module
+        - Beater module
+        - Parchment arrangment module
+        - Cooling rack module
+
+Algorithm:
+
+1. Pre Heat oven to 375°F. Make sure the oven is heating as expected and has progressed atleast to 150°F in 3 minutes. Don't continute to next steps if there is a malfunction with oven(failure handling).  
+
+2. Add ingredients to mixing bowl module to mix flour, baking soda and salt; STOP/PAUSE this module and proceed with step 3. Don't continute to next steps if there is a malfunction with the mixer(failure handling)  
+
+3. Start the Beater module to soften butter and sugars with inbuilt electric mixer on medium speed until fluffy. Handle the beater malfunction. 
+
+4. Transfer the fluffy mixture from step 3 to Stir in flour mixture along with chocolate chips and nuts for 3 minutes.
+
+5. Parchment arrangement module to drop rounded dough with 2 inch perimeter 2 inches apart to parchment-lined cookie sheets. Handle parchment arrangement module failure.
+
+6. Bake for 10 minutes.
+
+8. Transfer the cookie sheet to cooling rack. Cool for 30 minutes. Handle cooling rack failure.
+
+9. Repeat the whole process again for the second time so that each friend gets atleast one cookie.
+
+10. Repeat the whole process as needed until the friends hunger is satisfied.
+
+11. If there is any malfunction(error) if with any of the module execution, execute the error block.
+
+12. FINALLY, once all the batches are complete, execute a finally block to clean all the utilized modules.
+
+How to Interpret:
+
+- Followed the general shape representation for a flow diagram. i.e. Diamond is used as decision shape.
+- Green arrows going outwards of diamond reprents YES and RED arrows going outwards represents NO.
+- The "Process flow" container includes the normal process flow. 
+  "Error/ Mal-function block" contains the error processing block. 
+  "Finally/Clean block" includes the final action that always be conducted irrespective of the results.
+- There is NO catch block included in the Finally block as the flow chart is already complex :)
+

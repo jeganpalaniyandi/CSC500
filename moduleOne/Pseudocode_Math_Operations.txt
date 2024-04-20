@@ -1,0 +1,36 @@
+# Pseudocode for CSC500-1 - Module One - Crtical Thinking Assigment
+# References: https://youtu.be/Edy4ejIQRqk
+#             https://www.code4example.com/pseudocode/pseudocode-examples/#google_vignette    
+#         
+# Student : Jegan Palaniyandi
+
+BEGIN
+
+Try the following code
+
+	#PART ONE - ADDITION AND SUBTRACTION
+	
+	input "Enter number 1 :" into numb1
+	input "Enter number 2 :" into numb2
+	display "First number entered as --> " numb1
+	display "Second number entered as --> " numb2
+	
+	display "Sum of two numbers --> " numb1 + numb2
+	display "Difference of two numbers --> " numb1 + numb2
+	
+	#PART TWO - MULTIPICATION AND DIVISION
+	
+	input "Enter number 1 :" into numb1
+	input "Enter number 2 :" into numb2
+	display "First number entered as --> " numb3
+	display "Second number entered as --> " numb4
+	
+	display "Mutplying two numbers gives --> " numb3 * numb4
+	display "Dividing two numbers gives--> " numb3 / numb4
+	
+If "Divide by Zero" Exception
+    display "Divisor cannot be zero: " along with exception message
+If any other exception in the program
+    display "An error occurred: " along with exception message
+
+END
